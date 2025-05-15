@@ -10,18 +10,36 @@ body {
     background-position: center;
 }
 
+#centro{
+    background-color: rgb(229, 241, 239,0.4);
+    position: relative;
+    margin: 50px auto;
+    height: 400px;
+    width: 800px;
+   
+}
 
 .pres {
     color: rgb(0, 0, 0);
-    width: 500px;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-   background-color: rgba(0, 0, 0, 0.5);
-   border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.articulo{
+    position:absolute;
+    width: 400px;
+    height: 200px;
+    top: 100px;
+    left: 10px;
+
 }
 
 .ismga {
     width: 300px;
     height: auto;
     padding: 20px;
+    position: absolute;
+    right: 10px;
 }
