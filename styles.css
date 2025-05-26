@@ -1,45 +1,115 @@
+.nave {
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 0;
+
+}
+
+.nave li{
+    display: inline-block;
+    margin: 0px 15px;
+
+}
+
+.nave a{
+     text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    background-color: #000000e3;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.nave a:hover {
+    background-color: #27080e23;
+}
+
+
 
 #titulo {
-    font-size: 70px;
-    color: skyblue;
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 5px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0px;
 }
 
 body {
     background-image: url('fondo.jpg');
     background-size: cover;
     background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
 }
 
 #centro{
-    background-color: rgb(229, 241, 239,0.4);
+    background-color: rgba(255, 255, 255, 0.1);
     position: relative;
-    margin: 50px auto;
+
+    width: 900px;
     height: 400px;
-    width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
    
 }
 
 .pres {
-    color: rgb(0, 0, 0);
-    font-size: 20px;
-    text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    
 }
 
 .articulo{
-    position:absolute;
-    width: 400px;
-    height: 200px;
-    top: 100px;
-    left: 10px;
+    width: 50%;
+    float: left;
+    padding: 10px;
 
 }
 
 .ismga {
+    float: right;
     width: 300px;
-    height: auto;
-    padding: 20px;
-    position: absolute;
-    right: 10px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+form input[type="button"] {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #1d4f91;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form input[type="button"]:hover {
+    background-color: #02000a;
+}
+
+footer {
+    background-color: #5796dd3f;
+    color: #000000;
+    padding: 30px;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer h3 {
+    text-decoration: underline dotted #555;
+    margin-bottom: 10px;
 }
