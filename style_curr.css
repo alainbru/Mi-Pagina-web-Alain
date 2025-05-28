@@ -1,0 +1,73 @@
+header{
+    width: 1050px;
+    margin: auto;
+}
+.Cabeza {
+    margin: auto;
+    width: 700px;
+    position: relative;
+    display: inline-block;
+}
+.al {
+    display: inline-block;
+}
+
+.imgg{
+        width: 100px;
+        border-radius: 10px;
+
+}
+.titu p {
+    color: aqua;}
+.titu{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 5px;
+}
+.Contenedor {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color:rgba(197, 234, 245, 0.281);
+    margin: auto;
+    width: 1050px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.derecha {
+    display: inline-block;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.486);
+}
+
+.izquierda {
+    display: inline-block;
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.795);
+
+
+}
+
+
+body {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #5796dd3f;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+}
+
+footer h3 {
+    text-decoration: underline dotted #555;
+}
